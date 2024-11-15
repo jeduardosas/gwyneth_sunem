@@ -1,0 +1,31 @@
+.modal-tittle-1{
+  margin:20px 0;
+}
+
+.modal-tittle-2{
+  margin-bottom: 20px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.modal-tittle-2 p{
+  font-size: 35px;
+  
+}
+ 
+.modal-content{
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.modal-button{
+  background-color:var(--color_text);
+  padding: 10px 15px;
+  font-size: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color:#f5f0ea;
+  cursor:pointer;
+}
