@@ -1,5 +1,6 @@
 .modal-tittle-1{
   margin:20px 0;
+  
 }
 
 .modal-tittle-2{
@@ -8,6 +9,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+  color: var(--color_principal);
 }
 .modal-tittle-2 p{
   font-size: 35px;
@@ -21,7 +23,7 @@
 }
 
 .modal-button{
-  background-color:var(--color_text);
+  background-color:var(--color_principal);
   padding: 10px 15px;
   font-size: 20px;
   border-top-right-radius: 20px;

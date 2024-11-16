@@ -4,6 +4,7 @@ import { useLocation, Navigate} from "react-router-dom";
 import ReactAudioPlayer from "react-audio-player";
 import Modal from "react-modal";
 import { dataXV } from "../../data.js";
+import Hoteles from "../components/Hoteles.jsx";
 import CountDown from "/@/components/ContDown";
 import TimeLine from "../components/TimeLine";
 import Slider from "../components/Slider.jsx";
@@ -58,7 +59,7 @@ const Invitacion = () => {
           img_banner1,
           img_header} = dataXV
 
-  const song = './music/song1.mp3'
+  const song = './music/song.mp3'
 
   
   const [play,setPlay] = useState(false); //estado para manejar la reproduccion del audio
@@ -243,6 +244,9 @@ const Invitacion = () => {
               </div> {/*::::::::::F I N   D E   I T E M  :::::::::: */}
               
 
+            <div className="banner">
+              <img src="./img/flor1.webp" alt="img-flor" />
+            </div>
             </section>
 
             {/*::::::::::T I M E L I N E:::::::::: */}
@@ -323,7 +327,10 @@ const Invitacion = () => {
                   </div>
                 </div>
               </div>
-            </section>´
+            </section>
+
+            <Hoteles />
+
 
             
 

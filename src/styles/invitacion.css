@@ -238,7 +238,7 @@
 /*:::::::::R E G A L O S::::::::::*/
 .regalos{
   width: 100%;
-  margin-top: 49px;
+  margin-top: -10px;
   background-color: var(--color_principal);
   padding: 30px;
   box-sizing: border-box;
